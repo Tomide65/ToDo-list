@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    background-color: bisque;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
+
+
+.todo{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 60px;
+    color: orangered;
+}
+
+form{
+    margin-top: -30px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#btn{
+    padding:  10px 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 3px;
+    margin-left: -20px;
+}
